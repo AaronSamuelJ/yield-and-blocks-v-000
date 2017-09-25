@@ -10,7 +10,7 @@ def hello_t(names)
   end
 end
 
-hello_t(names) do |name|
+hello_t(["Tom","Tim","Terry","Joseph"]) do |name|
   if name.start_with("T")
     puts "hello #{name}"
   end
