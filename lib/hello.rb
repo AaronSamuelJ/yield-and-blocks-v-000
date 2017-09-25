@@ -8,6 +8,7 @@ def hello_t(names)
   else
     puts "No block was given"
   end
+  names
 end
 
 hello_t(["Tom","Tim","Terry","Joseph"]) do |name|
